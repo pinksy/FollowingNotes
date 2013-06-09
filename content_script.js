@@ -5,8 +5,8 @@ if (MutationObserver === undefined){
 }
 
 var contentsLength = 0;
-var debugging = true;
-var debugLevel = 0; // 0 = none, 1 = minimum, 2 = detailed, 3 = full;
+var debugging = false;
+var debugLevel = 1; // 1 = minimum, 2 = detailed, 3 = full;
 var storage = chrome.storage.sync;
 var url = "";
 var user;
