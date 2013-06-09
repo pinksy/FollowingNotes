@@ -1,0 +1,23 @@
+.notesDiv {
+  margin: 10px 0 0 50px;
+  width: 313px;
+  height: 304px;
+}
+
+.notesTextAreaContainer {
+  display: inherit;
+  width: 230px;
+  height: 200px;
+  margin: 40px 35px 5px;
+  overflow: hidden;
+  -webkit-transform: rotate(356deg);
+}
+
+.notesTextArea {
+  width: 210px;
+  height: 180px;
+  text-shadow: none;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: bold;
+}

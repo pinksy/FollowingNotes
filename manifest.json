@@ -1,0 +1,25 @@
+{
+  "name": "FollowingNotes",
+  "version": "0.1",
+  "manifest_version": 2,
+  "description": "Why am I following them? Add notes to your twitter.com/following list.",
+  "icons": {  "16": "icon16.png",
+              "48": "icon48.png",
+              "128": "icon128.png" },
+  "content_scripts": [
+    {
+      "matches": ["https://twitter.com/*"],
+      "css": ["style.css"],
+      "js": ["content_script.js"],
+      "run_at": "document_end" 
+    }
+  ],
+  "minimum_chrome_version": "18",
+  "permissions": [
+    "tabs",
+    "storage"
+  ],
+  "web_accessible_resources": [
+    "note.png"
+  ]
+}
